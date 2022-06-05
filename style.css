@@ -1,4 +1,5 @@
 header {
+
     padding: 120px 100px;
     height: 100vh;
     display: flex;
@@ -170,4 +171,29 @@ body, html {
   .projects .project {
     max-width: 600px;
     margin-bottom: 50px;
+  }
+  a {
+      color: #0407d9;
+  }
+  a:hover {
+      color: #0967d2;
+  }
+
+  .footer {
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-links a {
+    position: relative;
+    display: inline-block;
+    color: #0967d2 !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 15px;
+    outline: 0;
+  }
+  .darkmode{
+color: aqua;
   }
